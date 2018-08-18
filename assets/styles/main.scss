@@ -1,0 +1,788 @@
+@import 'normalize.css';
+@import 'animate.css';
+
+$bg-dark: #101010;
+$matrix-green: #008f11;
+$primary: #0070c9;
+
+/* General
+=====================================*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5rem 0 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.g2, .g3, .g4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+
+  .col {
+    padding: 1rem;
+  }
+}
+
+.g2 {
+  .col {
+    width: 50%;
+  }
+}
+
+.g3 {
+  .col {
+    width: 33.33333%;
+  }
+}
+
+.g4 {
+  .col {
+    width: 25%;
+  }
+}
+
+
+
+body {
+  font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  line-height: 1.42587;
+}
+
+
+.container {
+  width: 1056px;
+  margin: 0 auto;
+}
+
+.thumb{
+  img{
+    vertical-align: top;
+  }
+}
+
+.page-header{
+  text-align:center;
+  padding:2rem 0 1rem;
+
+  h1{
+    margin:0 0 .5rem;
+  }
+
+  p{
+    margin:0;
+    color: #979797;
+  }
+}
+
+.page-footer{
+  text-align:center;
+  padding:1rem 0 2rem;
+
+  p{
+    color: #979797;
+  }
+}
+
+
+.css-mb {
+  max-width: 640px; /* Set the desired maximum width of the macbook */
+  min-width: 50px; /* Set the desired minimum width of the macbook */
+  margin: 0 auto 0; /* Align mockup to center */
+}
+
+.css-mb div {
+  box-sizing: border-box !important; /* Just in case */
+}
+
+/* Center the display */
+.css-mb .mb-display-position {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* The display */
+.css-mb .mb-display {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 65.9442%;
+  background: #373435;
+
+  -webkit-border-top-left-radius:  3.5% 5.3075%;
+  -moz-border-radius-topleft:  3.5% 5.3075%;
+  border-top-left-radius:  3.5% 5.3075%;
+
+  -webkit-border-top-right-radius: 3.5% 5.3075%;
+  -moz-border-radius-toptight: 3.5% 5.3075%;
+  border-top-right-radius: 3.5% 5.3075%;
+}
+
+/* Webcam */
+/* Browser may not render a perfect circle */
+.css-mb .mb-display:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  width: 1%;
+  height: 1.5164%;
+  margin-left: -0.5%;
+  border-radius: 50%;
+  background: #525252;
+}
+
+/* Glare */
+/* Browser may not render the top and right offset evenly */
+.css-mb .mb-display:after {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 0.4%;
+  top: 0.64%;
+  width: 62.5%;
+  height: 100%;
+
+  background: none; /* Hide the gradient on older browsers */
+  background:    -moz-linear-gradient(55deg, rgba(0,0,0,0) 61%, rgba(255,255,255,0.05) 61%); /* FF3.6+ */
+  background: -webkit-linear-gradient(36deg, rgba(0,0,0,0) 61%, rgba(255,255,255,0.05) 61%); /* Chrome10+ and Safari5.1+ compute the degree differently */
+  background:      -o-linear-gradient(55deg, rgba(0,0,0,0) 61%, rgba(255,255,255,0.05) 61%); /* Opera 11.10+ */
+  background:     -ms-linear-gradient(55deg, rgba(0,0,0,0) 61%, rgba(255,255,255,0.05) 61%); /* IE10+ */
+  background:         linear-gradient(55deg, rgba(0,0,0,0) 61%, rgba(255,255,255,0.05) 61%);
+
+  -webkit-border-top-right-radius: 5.3075%;
+  -moz-border-radius-toptight: 5.3075%;
+  border-top-right-radius: 5.3075%;
+}
+
+/* Only show glare, if the class is applied */
+.css-mb.with-glare .mb-display:after { display: block; }
+
+/* Position the screen and give make it the right size, ratio 16:10 */
+.css-mb .mb-screen-position {
+  position: absolute;
+  top: 6.5%;
+  width: 93.2%;
+  left: 3.4%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 58.25%; /* Ratio */
+}
+
+/* Give parent (this element) a "height", so that child elements can use height: 100%;*/
+.css-mb .mb-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #4b4b4d; /* bg color if content is not big enough, or rendering is off */
+}
+
+/* Image on the screen */
+.css-mb .mb-screen img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Iframe on the screen */
+.css-mb .mb-screen iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Macbook body */
+.css-mb .mb-body {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 2.3%;
+  background: #e6e7e8;
+}
+
+/* The groove */
+.css-mb .mb-body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 14.0740%;
+  height: 0;
+  padding-bottom: 1.4814%;
+  margin-left: -7.037%;
+  background: #a9abae;
+
+  -webkit-border-bottom-left-radius:  7.0370% 50%;
+  -moz-border-radius-bottomleft:  7.0370% 50%;
+  border-bottom-left-radius:  7.0370% 50%;
+
+  -webkit-border-bottom-right-radius: 7.0370% 50%;
+  -moz-border-radius-bottomtight: 7.0370% 50%;
+  border-bottom-right-radius: 7.0370% 50%;
+}
+
+/* Macbook bottom */
+.css-mb .mb-bottom-cover {
+  width: 100%;
+  height: 0;
+  padding-bottom: 0.7407%;
+  background: #a9abae;
+
+  -webkit-border-bottom-left-radius:  12% 600%;
+  -moz-border-radius-bottomleft:  12% 600%;
+  border-bottom-left-radius:  12% 600%;
+
+  -webkit-border-bottom-right-radius: 12% 600%;
+  -moz-border-radius-bottomtight: 12% 600%;
+  border-bottom-right-radius: 12% 600%;
+}
+
+.sub-nav{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+  border-bottom:1px solid #EEE;
+
+  a{
+    padding:1rem;
+    margin-bottom:-2px;
+    color: #777;
+
+    &:hover{
+      color: #101010;
+    }
+
+    &.active{
+      color: #101010;
+      border-bottom:2px solid #101010;
+    }
+  }
+}
+
+.list-themes,
+.list-plugins,
+.list-products{
+  > div{
+    padding:3rem 0 2rem;
+    border-top:1px solid #EEE;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  h2{
+    margin:0 0 .25rem;
+  }
+
+  p{
+    margin: 0;
+    color: #979797;
+    font-size:.875rem;
+  }
+
+  ul{
+    list-style:none;
+    margin:1rem 0;
+    padding:0;
+    font-size:.875rem;
+    color: #474747;
+
+    li{
+      padding:.25rem 0;
+    }
+  }
+
+  .item-thumb{
+    padding:0 2rem;
+    width:61.8%;
+  }
+
+  .item-body{
+    width: 38.2%;
+  }
+
+  .btn-demo,
+  .btn-purchase{
+    margin-right: 2rem;
+
+    &:after{
+      content:' \0203A';
+    }
+  }
+}
+
+.list-plugins{
+  display:none;
+}
+
+
+/* Cases
+=====================================*/
+.cases{
+
+  .page-content{
+    padding:1rem 0;
+  }
+
+  .page-footer{
+    text-align:center;
+
+    padding:1rem 0 2rem;
+
+    p{
+      margin:0;
+      color: #979797;
+    }
+  }
+}
+
+.list-cases {
+  .col {
+
+  }
+
+  .item{
+    text-align: center;
+  }
+
+  .thumb{
+    display:block;
+    padding:1rem;
+    background: $bg-dark;
+    border-radius: 7px 7px 0 0;
+  }
+
+  h2 {
+    font-size: .875rem;
+    font-weight: 400;
+    margin:0;
+    padding:.75rem 0 .5rem;
+  }
+}
+
+
+/* About
+=====================================*/
+
+.our-section {
+  padding: 2rem 0;
+}
+
+.section-header {
+  margin-bottom: 1.5rem;
+
+  h2 {
+    margin: 0 0 .25rem;
+  }
+
+  p {
+    margin: 0;
+    color: #999;
+  }
+}
+
+@mixin hero-number() {
+  font-size: 3rem;
+  color: #FFF;
+
+}
+
+.our-company {
+  text-align: center;
+
+  .section-content {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+  }
+
+  #matrix {
+    width: 100%;
+    height: 300px;
+  }
+
+  .text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+    h2 {
+      display: none;
+      letter-spacing: .5rem;
+      text-shadow: 0 0 8px $matrix-green,
+      0 0 16px $matrix-green;
+
+      b {
+        font-size: 3rem;
+      }
+
+      &.active {
+        display: block;
+      }
+
+      &:nth-child(1) {
+        .char8, .char9 {
+          @include hero-number;
+        }
+      }
+
+      &:nth-child(2) {
+        .char1, .char2, .char3 {
+          @include hero-number;
+        }
+      }
+
+      &:nth-child(3) {
+        .char5, .char6, .char7, .char8, .char9 {
+          @include hero-number;
+        }
+      }
+    }
+  }
+}
+
+.our-team {
+  text-align: center;
+
+  .section-content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EEE;
+  }
+
+  figure {
+    margin:0;
+    padding:0 1rem 2rem;
+  }
+}
+
+.our-partners {
+  padding: 3rem 0;
+  text-align: center;
+
+  .section-content {
+    background: $bg-dark;
+    padding: 2rem;
+  }
+
+  img {
+    height: 2rem;
+    margin: 1rem;
+  }
+}
+
+.our-core {
+  text-align: center;
+
+  .section-content {
+    border: 1px solid #EEE;
+  }
+
+  .item {
+    margin:0;
+    position:relative;
+    display:none;
+
+    figure{
+      margin:0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem 0 3rem;
+    }
+
+    &:after{
+      content:'';
+      position:absolute;
+      left:0;
+      top:0;
+      width:100%;
+      height:100%;
+    }
+
+    br {
+      display: none;
+    }
+
+    &.marvel {
+      b {
+        color: #ea222d;
+      }
+    }
+
+    &.minions {
+      b {
+        color: #ee923d;
+      }
+    }
+
+    &.doraemon {
+      b {
+        color: #1ba0e6;
+      }
+    }
+
+    &.walle {
+      b {
+        color: #eb9e44;
+      }
+    }
+
+    &.active{
+      display:block;
+    }
+  }
+
+  figcaption{
+    font-size:1.5rem;
+  }
+
+  img {
+    height: 280px;
+    vertical-align: bottom;
+  }
+
+}
+
+
+
+
+
+
+
+
+.service-grid {
+
+  .col {
+    padding: 1rem;
+  }
+
+  .item {
+    background: #FFF;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .25);
+
+    &:hover {
+      box-shadow: 0 0 1px rgba(0, 0, 0, .25);
+    }
+  }
+
+  .thumb {
+    display: block;
+
+    img {
+      vertical-align: top;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: .875rem;
+    font-weight: 400;
+    padding: .75rem 1rem;
+  }
+}
+
+.services {
+
+}
+
+.page-content {
+  padding: 3rem 0;
+}
+
+/* Header
+=====================================*/
+
+#header {
+  //position: fixed;
+  width: 100%;
+  background: $bg-dark;
+  z-index: 3;
+  top: 0;
+  padding: 1rem;
+
+  .container,
+  .container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .transparent {
+    background: transparent;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-left: 1rem;
+
+    img {
+      height: 3rem;
+    }
+  }
+
+  nav {
+    display: flex;
+
+    a {
+      color: #FFF;
+      padding: 1rem;
+      transition: .28s;
+
+      &:hover,
+      &.active {
+        color: rgba(255, 255, 2555, .57);
+      }
+    }
+  }
+}
+
+#main {
+  position: relative;
+  z-index: 1;
+}
+
+.robots {
+  height: 100vh;
+  background: $bg_dark url(../images/robots.svg) no-repeat bottom center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+/* Home
+=====================================*/
+
+#hero-future {
+  color: #FFF;
+  height: 100vh;
+  padding: 5rem 2rem 0;
+  background: $bg_dark url(../images/circuit.svg) no-repeat bottom center;
+  background-size: cover;
+  animation: colorful_bg 30s ease-in-out infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Gradient Overlay
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, $bg_dark 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .text {
+    color: #FFF;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    animation: zoomIn 1s;
+    //text-shadow: 0 2px 10px rgba(0,0,0,.75);
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    h4 {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@keyframes colorful_bg {
+  0%, 100% {
+    background-color: #101010
+  }
+  14.2857% {
+    background-color: #142857
+  }
+  28.5714% {
+    background-color: #285714
+  }
+  42.8571% {
+    background-color: #428571
+  }
+  57.1428% {
+    background-color: #571428
+  }
+  71.4285% {
+    background-color: #714285
+  }
+  85.7142% {
+    background-color: #857142
+  }
+}
+
+
+
+#footer{
+  //background:#F7F7F7;
+  border-top:1px dashed #E7E7E7;
+  padding:3rem 1rem 2rem;
+  text-align:center;
+  font-size:.875rem;
+  color: #979797;
+
+  .container{
+    //display:flex;
+    //justify-content: space-between;
+    //align-items:center;
+  }
+
+  .logo{
+    width:5rem;
+  }
+
+  .copyright{
+
+  }
+
+  .slogan{
+
+  }
+}
