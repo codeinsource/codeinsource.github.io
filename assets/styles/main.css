@@ -869,17 +869,18 @@ body {
   .home-contact .g3 .col {
     width: 100%; }
 
-  .list-cases {
-    padding-left: 1rem;
-    padding-right: 1rem; }
-    .list-cases .col {
-      width: 100%; }
+  .list-cases .col {
+    width: 100%; }
 
   .our-core .item figure {
     padding-top: 2rem;
     flex-direction: column; }
 
   .about section {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  .cases .page-content > .container {
     padding-left: 1rem;
     padding-right: 1rem; }
 

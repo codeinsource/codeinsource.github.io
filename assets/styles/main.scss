@@ -1292,8 +1292,6 @@ body {
   }
 
   .list-cases{
-    padding-left:1rem;
-    padding-right:1rem;
 
     .col{
       width:100%;
@@ -1306,6 +1304,11 @@ body {
   }
 
   .about section{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+
+  .cases .page-content > .container{
     padding-left:1rem;
     padding-right:1rem;
   }
