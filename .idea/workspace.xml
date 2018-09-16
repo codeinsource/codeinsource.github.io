@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f2d1c5-afb6-4f2a-8e96-df2d7d5de814" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css.map" afterPath="$PROJECT_DIR$/assets/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.scss" afterPath="$PROJECT_DIR$/assets/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cases.html" afterPath="$PROJECT_DIR$/pages/cases.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -461,11 +459,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cases.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cases.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/cases.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="99" column="69" lean-forward="false" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
+            <state relative-caret-position="495">
+              <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
@@ -647,7 +645,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sub-nav</find>
       <find>page-header</find>
       <find>page-content</find>
       <find>st3</find>
@@ -677,6 +674,7 @@
       <find>hero-future</find>
       <find>.g2</find>
       <find>苹果</find>
+      <find>logo</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -719,12 +717,12 @@
         <option value="$PROJECT_DIR$/_includes/svg-map.html" />
         <option value="$PROJECT_DIR$/_includes/svg-circuit.html" />
         <option value="$PROJECT_DIR$/assets/images/circuit.svg" />
-        <option value="$PROJECT_DIR$/pages/cases.html" />
         <option value="$PROJECT_DIR$/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/styles/main.scss" />
+        <option value="$PROJECT_DIR$/pages/cases.html" />
       </list>
     </option>
   </component>
@@ -851,12 +849,12 @@
       <workItem from="1534727196426" duration="571000" />
       <workItem from="1534732330104" duration="20776000" />
       <workItem from="1534904866254" duration="742000" />
-      <workItem from="1537067443056" duration="7433000" />
+      <workItem from="1537067443056" duration="7495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77619000" />
+    <option name="totallyTimeSpent" value="77681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1091,16 +1089,6 @@
         <state relative-caret-position="438">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cases.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="99" column="69" lean-forward="false" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="69" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1680,6 +1668,16 @@
             <element signature="e#31860#31882#0" expanded="false" />
             <element signature="e#31897#31903#0" expanded="false" />
             <element signature="e#31915#31921#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cases.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
