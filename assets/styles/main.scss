@@ -39,7 +39,6 @@ h2 {
 }
 
 .g2, .g3, .g4, .g5 {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 0 -1rem;
@@ -79,7 +78,7 @@ body {
 }
 
 .container {
-  width: 1056px;
+  max-width: 1056px;
   margin: 0 auto;
 }
 
@@ -823,6 +822,7 @@ body {
       font-size: 3.5rem;
       font-weight: 400;
       letter-spacing: 1rem;
+      padding-left:1rem;
       margin: 0;
     }
   }
@@ -1169,7 +1169,7 @@ body {
 }
 
 .service-intro {
-  padding: 5rem 0 7rem;
+  padding: 5rem 2rem 7rem;
   text-align: center;
   background: #FFF no-repeat center center;
   background-size: contain;
@@ -1218,3 +1218,88 @@ body {
 }
 
 // nothing
+
+
+.br-xs{
+  display:none;
+}
+
+@media (max-width: 768px) {
+
+  .br-xs{
+    display:block;
+  }
+
+  #hero-future .text h1,
+  #hero-robots .text h1{
+    letter-spacing: .5rem;
+    padding-left:.5rem;
+    font-size:2rem;
+  }
+
+  .service-intro{
+    padding:2rem 2rem 1rem;
+
+    h2{
+      font-size:1.5rem;
+    }
+
+    p{
+      font-size:1rem;
+    }
+  }
+  .as-providers{
+    flex-direction: column;
+  }
+
+  .home-services{
+    .col {
+      flex: 0 0 50%;
+    }
+
+    p{
+      font-size:.75rem;
+    }
+  }
+
+  .hero-map{
+    .text{
+      h2{
+        font-size:1.25rem;
+      }
+
+      padding:2rem;
+    }
+  }
+
+  .home-contact{
+    .section-content{
+      padding:0 1rem;
+    }
+
+    .g3{
+      .col{
+        width: 100%;
+      }
+    }
+  }
+
+  .list-cases{
+    padding-left:1rem;
+    padding-right:1rem;
+
+    .col{
+      width:100%;
+    }
+  }
+
+  .our-core .item figure{
+    padding-top:2rem;
+    flex-direction:column;
+  }
+
+  .about section{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+}
