@@ -375,7 +375,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF; }
+    color: #FFF;
+    padding: 2rem; }
     .our-company .text h2 {
       display: none;
       letter-spacing: .5rem;
