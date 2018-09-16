@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f2d1c5-afb6-4f2a-8e96-df2d7d5de814" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/aliyun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/envato-market.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/themeforest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/home-products.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/svg-circuit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/svg-map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/logos/envato-colored.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/typer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/iconfont.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/avengers.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/bg-what-is-xcx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/wx-promo-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/xcx-advantage-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/xcx-promo-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/xcx-promo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/xcx-promo-3.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/circuit-taboao.svg" afterPath="$PROJECT_DIR$/assets/images/circuit-without-text.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/cases/newsmicrosoft.jpg" afterPath="$PROJECT_DIR$/assets/images/cases/newsmicrosoft.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/cases/thenextweb.jpg" afterPath="$PROJECT_DIR$/assets/images/cases/thenextweb.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/circuit.svg" afterPath="$PROJECT_DIR$/assets/images/circuit.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.css.map" afterPath="$PROJECT_DIR$/assets/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.scss" afterPath="$PROJECT_DIR$/assets/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/cases.html" afterPath="$PROJECT_DIR$/pages/cases.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact.html" afterPath="$PROJECT_DIR$/pages/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/products.html" afterPath="$PROJECT_DIR$/pages/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/services.html" afterPath="$PROJECT_DIR$/pages/services.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="n#section#2;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#2;n#!!top" expanded="false" />
@@ -93,7 +55,7 @@
       <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
+            <state relative-caret-position="438">
               <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="26" />
               <folding />
             </state>
@@ -112,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="614" column="25" lean-forward="true" selection-start-line="614" selection-start-column="25" selection-end-line="614" selection-end-column="25" />
+              <caret line="614" column="25" lean-forward="false" selection-start-line="614" selection-start-column="25" selection-end-line="614" selection-end-column="25" />
               <folding>
                 <element signature="e#50#784#0" expanded="false" />
                 <element signature="e#822#908#0" expanded="false" />
@@ -240,11 +202,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="svg-circuit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/svg-circuit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10502">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="-10521">
+              <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
               </folding>
@@ -255,8 +227,8 @@
       <file leaf-file-name="circuit.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/images/circuit.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -265,7 +237,7 @@
       <file leaf-file-name="svg-map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/svg-map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="0">
               <caret line="1232" column="10" lean-forward="false" selection-start-line="1232" selection-start-column="10" selection-end-line="1232" selection-end-column="10" />
               <folding>
                 <element signature="n#svg#0;n#!!top" expanded="false" />
@@ -278,7 +250,7 @@
         <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="829" column="0" lean-forward="true" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
+              <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
               <folding>
                 <element signature="e#136#186#0" expanded="false" />
                 <element signature="e#209#238#0" expanded="false" />
@@ -473,19 +445,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-products.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/home-products.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding>
-                <element signature="n#section#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -502,7 +461,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>^</find>
       <find>css-mb</find>
       <find>list-themes</find>
       <find>0203A</find>
@@ -532,6 +490,7 @@
       <find>animation: flash 4s ease-in-out;</find>
       <find>st1</find>
       <find>苹果</find>
+      <find>core</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -578,6 +537,7 @@
         <option value="$PROJECT_DIR$/assets/images/circuit.svg" />
         <option value="$PROJECT_DIR$/pages/cases.html" />
         <option value="$PROJECT_DIR$/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -691,12 +651,12 @@
       <workItem from="1534727196426" duration="571000" />
       <workItem from="1534732330104" duration="20776000" />
       <workItem from="1534904866254" duration="742000" />
-      <workItem from="1537067443056" duration="4248000" />
+      <workItem from="1537067443056" duration="4476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74434000" />
+    <option name="totallyTimeSpent" value="74662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -834,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -930,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="829" column="0" lean-forward="true" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
+          <caret line="829" column="0" lean-forward="false" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
           <folding>
             <element signature="e#136#186#0" expanded="false" />
             <element signature="e#209#238#0" expanded="false" />
@@ -1126,7 +1079,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/svg-map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="0">
           <caret line="1232" column="10" lean-forward="false" selection-start-line="1232" selection-start-column="10" selection-end-line="1232" selection-end-column="10" />
           <folding>
             <element signature="n#svg#0;n#!!top" expanded="false" />
@@ -1136,16 +1089,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/circuit.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/svg-circuit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10502">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="-10521">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
           </folding>
@@ -1155,7 +1108,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="n#section#2;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#2;n#!!top" expanded="false" />
@@ -1190,7 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
+        <state relative-caret-position="438">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="26" />
           <folding />
         </state>
@@ -1209,7 +1162,7 @@
     <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="614" column="25" lean-forward="true" selection-start-line="614" selection-start-column="25" selection-end-line="614" selection-end-column="25" />
+          <caret line="614" column="25" lean-forward="false" selection-start-line="614" selection-start-column="25" selection-end-line="614" selection-end-column="25" />
           <folding>
             <element signature="e#50#784#0" expanded="false" />
             <element signature="e#822#908#0" expanded="false" />
@@ -1329,6 +1282,14 @@
             <element signature="e#21723#22616#0" expanded="false" />
             <element signature="e#21762#21877#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
