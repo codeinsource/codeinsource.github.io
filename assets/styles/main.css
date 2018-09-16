@@ -45,9 +45,13 @@ h2 {
 .g5 .col {
   width: 20%; }
 
+html {
+  background: #FFF; }
+
 body {
   font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  line-height: 1.42587; }
+  line-height: 1.42587;
+  background: #FFF; }
 
 .container {
   max-width: 1056px;
