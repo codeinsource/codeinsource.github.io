@@ -482,7 +482,8 @@ body {
     align-items: center; }
   #header .logo {
     display: inline-block;
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    margin-right: 2rem; }
     #header .logo img {
       height: 3rem; }
   #header nav {
@@ -873,6 +874,16 @@ body {
 
   .about section {
     padding-left: 1rem;
-    padding-right: 1rem; } }
+    padding-right: 1rem; }
+
+  #header {
+    padding: .75rem .5rem; }
+    #header .logo {
+      margin-left: .5rem; }
+    #header nav a {
+      padding: .5rem; }
+
+  #hero-future {
+    margin-top: -84px; } }
 
 /*# sourceMappingURL=main.css.map */

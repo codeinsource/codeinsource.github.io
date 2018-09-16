@@ -703,6 +703,7 @@ body {
   .logo {
     display: inline-block;
     margin-left: 1rem;
+    margin-right:2rem;
 
     img {
       height: 3rem;
@@ -1299,5 +1300,23 @@ body {
   .about section{
     padding-left:1rem;
     padding-right:1rem;
+  }
+
+  #header{
+    padding:.75rem .5rem;
+
+    .logo{
+      margin-left:.5rem;
+    }
+
+    nav{
+      a{
+        padding: .5rem;
+      }
+    }
+  }
+
+  #hero-future{
+    margin-top:-84px;
   }
 }
